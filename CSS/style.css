@@ -1,0 +1,53 @@
+/* Header Styling */
+
+header {
+    z-index: +100;
+
+    background: white;
+    color: #2a96fc;
+  
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+  
+    box-shadow: rgba(0, 0, 0, 0.611) 0px 2px 4px;
+}
+
+header nav {
+    background-color: white;
+    height: fit-content;
+}
+
+#nav-navbar-nav {
+    width: 70%;
+    margin-left: 10%;
+
+}
+
+#nav-navbar-nav li {
+    margin-left: 5%;
+}
+
+
+/* ---------------------------------------------------- */
+
+/* This is for signin and signup forms  */
+
+.signin-form {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mb-3{
+    margin-bottom: 5%;
+}
+
+#emailHelp{
+    color: gray;
+}
+
+/* ---------------------------------------------------- */
+
