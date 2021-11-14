@@ -1,25 +1,30 @@
 body {
-    margin-top: 3%;
+    margin-top: 8%;
 }
 /* Header Styling */
 
 header {
     z-index: +100;
-
     background: white;
     color: #2a96fc;
-  
     position: fixed;
     top: 0;
     right: 0;
     width: 100%;
-  
+    
     box-shadow: rgba(0, 0, 0, 0.611) 0px 2px 4px;
+    height: 80px;
+   
 }
 
 header nav {
     background-color: white;
     height: fit-content;
+    top: 10%;
+  
+    width: 80%;
+    height: 80%;
+    position: relative;
 }
 
 #nav-navbar-nav {
