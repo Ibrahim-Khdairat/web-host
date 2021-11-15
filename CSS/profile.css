@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(151, 151, 151);
+}
+.profile {
+
+    position: relative;
+   
+
+}
+
+#grey {
+    height: 400px;
+    background-color: rgb(151, 151, 151);
+}
+
+#lightgrey {
+    height: 400px;
+    background-color: rgb(226, 226, 226);
+  
+}
+
+#white {
+    display: block;
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    z-index: 3;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    height: 500px;
+    box-shadow: rgba(66, 64, 64, 0.611) 4px 4px 4px 4px;
+
+}
+
+.profile img {
+    background-color: white;
+    z-index: 4;
+    position: absolute;
+   width: 14%;
+   height: 212px;
+   border-radius: 50%;
+   top: 7%;
+   left: 43%;
+}
+
+ #info {
+     z-index: 4;
+     position: absolute;
+     top: 40%;
+     width: 30%;
+     left: 35%;
+ }
+
+ #info h1  {
+     text-align: center;
+     font-weight: 700;
+ }
+
+ #info p {
+     margin-top: 5%;
+     text-align: center;
+     font-size: x-large;
+ }
+
+ #info a {
+     text-decoration: none;
+ }
+
+ #icon {
+     width: 100px;
+     height: 100px;
+ }
