@@ -41,14 +41,17 @@ header nav {
 
 .nav-item {
     margin-left: 5%;
+    
 }
 
 .dropdown {
     position: absolute;
     z-index: 100;
     right: 15%;
+    /* border: solid #007bff 2px;
+    border-radius: 50%; */
 }
-#drop-menu {
+.dropdown-menu {
     margin-left: -50px;
 }
 
